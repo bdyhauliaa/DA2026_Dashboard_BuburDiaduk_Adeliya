@@ -8,6 +8,7 @@ data/*.csv
 !data/dim_date.csv
 !data/dim_time.csv
 !data/dim_site.csv
+!data/dim_sensor.csv
 !data/dim_hospital.csv
 data/*.parquet
 !data/fact_air_quality.parquet
