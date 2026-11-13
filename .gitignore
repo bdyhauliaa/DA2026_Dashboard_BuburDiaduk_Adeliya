@@ -1,0 +1,35 @@
+# Keep repository limited to preprocessing + EDA essentials
+Laporan_*.md
+figures/
+data/eda_summary/
+data/*.md
+data/*.json
+data/*.csv
+!data/dim_date.csv
+!data/dim_time.csv
+!data/dim_site.csv
+!data/dim_hospital.csv
+data/*.parquet
+!data/fact_air_quality.parquet
+!data/fact_health.parquet
+
+# Raw and large data
+data/raw/
+preprocessing_AQMS_Health_PowerBI.ipynb
+
+# Power BI and source documents
+*.pbix
+*.pbip
+*.pdf
+
+# Notebook and Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS files
+Thumbs.db
+.DS_Store
